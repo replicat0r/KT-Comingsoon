@@ -1,0 +1,68 @@
+html,
+body {
+	min-width: 920px;
+	height: 860px;
+}
+
+input, textarea {
+	color: #CCC;
+	border: 1px #AAA solid;
+}
+
+input[type=text]:focus,
+input[type=submit]:hover,
+textarea:focus {
+	background-color: #555;
+}
+
+input[type=submit] {
+	background-color: #666;
+}
+
+#copyright-info:hover {
+	color: #DDD;
+}
+
+#cube .cube-slide {
+	border: 1px #AAA solid;
+	display: none;
+}
+
+#cube .cube-form-slide {
+	display: block;
+}
+
+#footer {
+	color: #999;
+}
+
+#main-content {
+	height: 860px;
+}
+
+#socials i {
+	color: #999;
+}
+
+#socials i:hover {
+	color: #DDD;
+	background-color: #444;
+}
+
+.counter-item.hours,
+.counter-item.minutes,
+.counter-item.seconds {
+	border-left: 1px #AAA solid;
+}
+
+.form-email-container {
+	border: 1px #AAA solid;
+}
+
+.nav-icon-second {
+	display: none;
+}
+
+.return-msg {
+	background: #222;
+}
