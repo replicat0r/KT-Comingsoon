@@ -446,7 +446,7 @@ input[type=submit] {
 }
 
 .form-email-container {
-	width: 360px;
+	width: 350px;
     position: relative;
 	height: 40px;
 	margin: 0 auto;
@@ -539,10 +539,12 @@ input[type=submit] {
 	line-height: 50px;
 	border: 2px #F3F3F3 solid;
 	overflow: hidden;
+/*
 	background: -webkit-radial-gradient(rgba(0,0,0,0.13) 25%, rgba(0,0,0,0.6) 100%);
 	background: -moz-radial-gradient(rgba(0,0,0,0.13) 25%, rgba(0,0,0,0.6) 100%);
 	background: -o-radial-gradient(rgba(0,0,0,0.13) 25%, rgba(0,0,0,0.6) 100%);
 	background: radial-gradient(rgba(0,0,0,0.13) 25%, rgba(0,0,0,0.6) 100%);
+*/
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 			border-radius: 50%;
@@ -636,6 +638,7 @@ input[type=submit] {
 }
 
 .slide-content {
+
 	overflow: auto;
 	float: left;
 	height: 100%;
@@ -915,12 +918,12 @@ input[type=submit] {
 		border-color: #C5C5C5;
 		border-top: 1px rgba(255,255,255,0.7) solid;
 		border-bottom: 1px rgba(255,255,255,0.7) solid;
+/*                    background: rgba(255, 255, 255, 0.4); */
 	}
 	
 	.wrapper {
 		overflow: auto;
-                background: rgba(255, 255, 255, 0.2); 
-
+        
 	}
 }
 

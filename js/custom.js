@@ -202,7 +202,7 @@ jQuery(window).load(function(e) {
 		mainSwiper.swipeNext();
 	});
 	
-	var finish_date = '2014/05/21 12:00:00';	/* format YYYY/MM/DD hh:mm:ss */
+	var finish_date = '2014/06/21 12:00:00';	/* format YYYY/MM/DD hh:mm:ss */
 	var sec_actual = -1; var min_actual = -1; var hr_actual = -1; var day_actual = -1;
 	if(Modernizr.csstransforms && Modernizr.csstransitions) {
 		$('#counter').countdown(finish_date, function(event) {
