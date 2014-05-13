@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+
+
+h1,p{
+color:#474747;
+    
+}
+
+
+
+input[type=submit]:hover{
+	outline: none;
+	background-color: rgba(255,255,255,0.45);
+	color: #E2E2E2;
+}
+
+input[type=submit] {
+	background-color: rgba(0,0,0,0);
+	height: 40px;
+	float: right;
+	width: 24%;
+    color: white;
+}
+
+
+
+#white{
+        background: rgba(255,255,255,0.4);
+padding:10px 10px;
+}
+
+.slide-head {
+/*	height: 265px;*/
+    height: 100%;
+
+}
+
+
+
+.upper{
+    
+    text-transform:uppercase;}
+
+.cursive{
+    font-size: 70px;
+font-family: 'Parisienne', cursive;}
